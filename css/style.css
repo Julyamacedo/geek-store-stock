@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0c10;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b0c10;
+    padding: 20px;
+}
+
+#logo-menu {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav p {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav p:hover {
+    color: #00f0ff;
+}
+
+nav span {
+    color: #a855f7;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#texto {
+    width: 70%;
+}
+
+#texto h1 {
+    font-size: 65px;
+    line-height: 0.9;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+#texto h1 strong {
+    color: #a855f7;
+}
+
+#texto p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #c5c6c7;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#funcionalidades h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #00f0ff;
+}
+
+#funcionalidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#funcionalidades li {
+    width: 32.5%;
+    padding: 10px;
+    background-color: rgba(168, 85, 247, 0.35);
+    border: 1px solid #a855f7;
+    color: #ffffff;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #a855f7;
+}
+
+#carros-recentes h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #00f0ff;
+}
+
+#carros {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    background-color: #1f2833;
+}
+
+th {
+    border: 1px solid #a855f7;
+    padding: 15px;
+    color: #00f0ff;
+}
+
+td {
+    width: 33%;
+    border: 1px solid #a855f7;
+    padding: 15px;
+}
+
+.imagem {
+    background-color: #0b0c10;
+}
+
+td img {
+    width: 100%;
+    height: 500px;
+}
+
+.preco {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0, 240, 255, 0.2);
+    color: #00f0ff;
+}
+
+#ver-mais {
+    text-align: center;
+    background-color: #a855f7;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #00f0ff;
+    width: 100%;
+    font-weight: bold;
+}
+
+#ver-mais p:hover {
+    color: #0b0c10;
+}
